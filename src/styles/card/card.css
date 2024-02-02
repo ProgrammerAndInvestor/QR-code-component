@@ -1,0 +1,33 @@
+/* .card h1, .card p {
+    margin: 0;
+    padding: 0;
+} */
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    max-width: 280px;
+    padding: 15px;
+    background: var(--white);
+    border-radius: 15px;
+}
+
+.card img {
+    border-radius: 15px;
+}
+
+.card h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: var(--weight-700);
+    color: var(--dark-blue);
+}
+
+.card p {
+    text-align: center;
+    color: var(--grayish-blue);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--weight-400);
+}
